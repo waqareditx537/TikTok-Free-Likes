@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
+<title><data:view.title.escaped/></title>
+<meta expr:content='"text/html; charset=" + data:blog.encoding' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+<link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
+<meta expr:content='data:skin.vars.keycolor' name='theme-color'/>
+<meta expr:content='data:skin.vars.keycolor' name='msapplication-navbutton-color'/>
+<b:if cond='data:blog.adultContent'>
+<meta content='adult' name='rating'/>
+</b:if>
+<link expr:href='data:view.url.canonical' rel='canonical'/>
+<data:blog.feedLinks/><data:blog.meTag/>
+<meta expr:content='data:view.description.escaped' name='description'/>
+<b:if cond='data:view.isHomepage'>
+<meta content='website' property='og:type'/>
+</b:if>
+<b:if cond='data:view.isSingleItem'>
+<meta content='article' property='og:type'/>
+</b:if>
+<b:if cond='data:view.isMultipleItems and not data:view.isHomepage'>
+<meta content='object' property='og:type'/>
+</b:if>
+<meta expr:content='data:view.title.escaped' property='og:title'/>
+<meta expr:content='data:blog.url.canonical' property='og:url'/>
+<meta expr:content='data:view.description.escaped' property='og:description'/>
+<meta expr:content='data:blog.title.escaped' property='og:site_name'/>
+<b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:content='data:widgets.Blog.first.posts[0].featuredImage' name='meta' property='og:image'/>
+<b:if cond='data:view.featuredImage'>
+<meta expr:content='data:view.featuredImage' property='og:image'/>
+<meta expr:content='data:view.featuredImage' name='twitter:image'/>
+</b:if>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta expr:content='data:view.title.escaped' name='twitter:title'/>
+<meta expr:content='data:blog.url.canonical' name='twitter:domain'/>
+<meta expr:content='data:view.description.escaped' name='twitter:description'/>
+<meta expr:content='data:view.description.escaped' name='twitter:creator'/>
+<meta content='https://www.facebook.com/ADMIN-PROFILE' property='article:author'/>
+<meta content='https://www.facebook.com/ADMIN-PAGE' property='article:publisher'/>
+<meta content='CODE-APPLICATION-FACEBOOK' property='fb:app_id'/>
+<meta content='ADMIN-ID' property='fb:admins'/>
+<meta content='en_US' property='og:locale'/>
+<meta content='en_GB' property='og:locale:alternate'/>
+<meta content='id_ID' property='og:locale:alternate'/>
+<b:if cond='data:view.isHomepage'>
+<script type='application/ld+json'>{"@context":"http://schema.org","@type":"WebSite","name":"<data:view.title.escaped/>","url":"<data:view.url.canonical/>","potentialAction":{"@type":"SearchAction","target":"<data:view.url.canonical/>search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+</b:if>
+<link href='//1.bp.blogspot.com' rel='dns-prefetch'/> <link href='//28.2bp.blogspot.com' rel='dns-prefetch'/> <link href='//3.bp.blogspot.com' rel='dns-prefetch'/> <link href='//4.bp.blogspot.com' rel='dns-prefetch'/> <link href='//2.bp.blogspot.com' rel='dns-prefetch'/> <link href='//www.blogger.com' rel='dns-prefetch'/> <link href='//maxcdn.bootstrapcdn.com' rel='dns-prefetch'/> <link href='//fonts.googleapis.com' rel='dns-prefetch'/> <link href='//use.fontawesome.com' rel='dns-prefetch'/> <link href='//ajax.googleapis.com' rel='dns-prefetch'/> <link href='//resources.blogblog.com' rel='dns-prefetch'/> <link href='//feeds.feedburner.com' rel='dns-prefetch'/> <link href='//cdnjs.cloudflare.com' rel='dns-prefetch'/> <link href='//www.google-analytics.com' rel='dns-prefetch'/> <link href='//themes.googleusercontent.com ' rel='dns-prefetch'/> <link href='//pagead2.googlesyndication.com' rel='dns-prefetch'/> <link href='//googleads.g.doubleclick.net' rel='dns-prefetch'/> <link href='//www.gstatic.com' rel='preconnect'/> <link href='//www.googletagservices.com' rel='dns-prefetch'/> <link href='//static.xx.fbcdn.net' rel='dns-prefetch'/> <link href='//tpc.googlesyndication.com' rel='dns-prefetch'/> <link href='//apis.google.com' rel='dns-prefetch'/> <link href='//www.facebook.com' rel='dns-prefetch'/> <link href='//connect.facebook.net' rel='dns-prefetch'/> <link href='//twitter.com' rel='dns-prefetch'/> <link href='//www.youtube.com' rel='dns-prefetch'/> <link href='//www.pinterest.com' rel='dns-prefetch'/> <link href='//www.linkedin.com' rel='dns-prefetch'/>
+<link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css' rel='stylesheet'/>
+<b:skin version='1.3.0'><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name: Funnel Re-Design
+Version: 1.5.0.V
+Author: Piki Template
+Author Url: https://pikitemplates.com/
+Re-Designed by: Emexee Blogger Templates
+Last Update: 17/Sep/2021
+----------------------------------------------- */
+/*
+<Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#7102d9"/>
+<Group description="Theme Colors" selector="body">
+<Variable name="body.background.color" description="Body Background Color" type="color" default="#fbfbfb" value="#fbfbfb"/>
+<Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) url() repeat fixed top left" value="$(color) url() repeat fixed top left"/>
+<Variable name="body.text.color" description="Body Text Color" type="color" default="#000000" value="#4a6cbb"/>
+<Variable name="body.post.color" description="Body Post Color" type="color" default="#595959" value="#000000"/>
+<Variable name="body.link.color" description="Body Link Color" type="color" default="$(main.color)" value="#2e3244"/>
+<Variable name="main.color" description="Theme Color" type="color" default="#4a6cbb" value="#4a6cbb"/>
+<Variable name="icon.color" description="Icon Color" type="color" default="#ffffff" value="#fbfbfb"/>
+</Group>
+<Group description="Widget Colors" selector="body">
+<Variable name="widget.background" description="Widget Background" type="color" default="#a458ad" value="#7B1FA2"/>
+<Variable name="widget.background.first" description="Second Widget Background" type="color" default="#877ff9" value="#00dc00"/>
+<Variable name="widget.title.color" description="Widget Title Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="button.background" description="Button Background" type="color" default="#00dcdc" value="#00dc00"/>
+<Variable name="button.background.first" description="Second Button Background" type="color" default="#1e4da5" value="#a458ad"/>
+<Variable name="button.title.color" description="Button Title Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="main.hover" description="Title Color on Hover" type="color" default="$(main.color)" value="#df1023"/>
+<Variable name="title.color" description="Title Color" type="color" default="#595959" value="#595959"/>
+</Group>
+<Group description="Theme Fonts" selector="body">
+<Variable name="main.font" description="Site Font" type="font" family="Rubik" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+<Variable name="title.font" description="Title Font" type="font" family="Rubik" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+<Variable name="meta.font" description="Meta Font" type="font" family="Rubik" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+<Variable name="text.font" description="Text Font" type="font" family="Rubik" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+</Group>
+<Group description="Theme Widths" selector="body">
+<Variable name="outerContainer.width" description="Container Width" type="length" default="1078px" min="970px" max="1094px" value="1078px"/>
+<Variable name="sidebar.width" description="Sidebar Width" type="length" default="0px" min="0px" max="0px" value="0px"/>
+</Group>
+<Group description="Main Menu" selector="div.headerHero">
+<Variable name="menu.color.desktop" description="Desktop Menu Color" type="color" default="#ffffff" value="#00dc00"/>
+<Variable name="menu.color" description="Mobile Menu Color" type="color" default="#4a6cbb" value="#4a6cbb"/>
+<Variable name="search.color" description="Search Background Color" type="color" default="#000000" value="#000000"/>
+<Variable name="menu.title.color" description="Menu Title Color" type="color" default="#000000" value="#fbfbfb"/>
+<Variable name="submenu.color" description="SubMenu Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="menu.hover.color" description="Menu Hover Color" type="color" default="#434343" value="#00dcdc"/>
+</Group>
+<Group description="Footer Area" selector="#footer-container">
+<Variable name="footer.background.color" description="Footer Background Color" type="color" default="#20222d" value="#fbfbfb"/>
+<Variable name="footer.widget.title" description="Footer Title Color" type="color" default="#fbfbfb" value="#000000"/>
+<Variable name="footer.caption.color" description="Footer Caption Color" type="color" default="#fbfbfb" value="#757575"/>
+<Variable name="footer.widget.title.color" description="Widget Title Color" type="color" default="#ffffff" value="#000000"/>
+<Variable name="footer.post.color" description="Footer Color" type="color" default="#f5f5f5" value="#f5f5f5"/>
+<Variable name="footer.link.color" description="Footer Link Color" type="color" default="$(body.link.color)" value="#4a6cbb"/>
+<Variable name="footer.pages.color" description="Footer Pages Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="footer.pages.hover.color" description="Footer Pages Hover Color" type="color" default="$(main.color)" value="#df1023"/>
+<Variable name="footer.copyright.background" description="Footer Copyright Background Color" type="color" default="#2e3244" value="#2e3244"/>
+</Group>
+<Group description="Reset (All Theme Fonts)">
+<Variable name="mainfont.normal" description="Main Font Normal" type="font" default="normal 500 14px $(main.font.family)" value="normal 500 14px $(family)"/>
+<Variable name="mainfont.italic" description="Main Font Italic" type="font" default="italic 400 14px $(main.font.family)" value="italic 400 14px $(family)"/>
+<Variable name="mainfont.semibold" description="Main Font SemiBold" type="font" default="normal 600 14px $(main.font.family)" value="normal 600 14px $(family)"/>
+<Variable name="mainfont.semibolditalic" description="Main Font SemiBold Italic" type="font" default="italic 600 14px $(main.font.family)" value="italic 600 14px $(family)"/>
+<Variable name="mainfont.bold" description="Main Font Bold" type="font" default="normal 700 14px $(main.font.family)" value="normal 700 14px $(family)"/>
+<Variable name="mainfont.bolditalic" description="Main Font Bold Italic" type="font" default="italic 700 14px $(main.font.family)" value="italic 700 14px $(family)"/>
+<Variable name="titlefont.italic" description="Title Font Italic" type="font" default="italic 400 14px $(title.font.family)" value="italic 400 14px $(family)"/>
+<Variable name="titlefont.normal" description="Title Font Normal" type="font" default="normal 500 14px $(title.font.family)" value="normal 500 14px $(family)"/>
+<Variable name="titlefont.normalitalic" description="Title Font Normal Italic" type="font" default="italic 500 14px $(title.font.family)" value="italic 500 14px $(family)"/>
+<Variable name="titlefont.semibold" description="Title Font SemiBold" type="font" default="normal 600 14px $(title.font.family)" value="normal 600 14px $(family)"/>
+<Variable name="titlefont.semibolditalic" description="Title Font SemiBold Italic" type="font" default="italic 600 14px $(title.font.family)" value="italic 600 14px $(family)"/>
+<Variable name="titlefont.bold" description="Title Font Bold" type="font" default="normal 700 14px $(title.font.family)" value="normal 700 14px $(family)"/>
+<Variable name="titlefont.bolditalic" description="Title Font Bold Italic" type="font" default="italic 700 14px $(title.font.family)" value="italic 700 14px $(family)"/>
+<Variable name="metafont.italic" description="Meta Font Italic" type="font" default="italic 400 14px $(meta.font.family)" value="italic 400 14px $(family)"/>
+<Variable name="metafont.normal" description="Meta Font Normal" type="font" default="normal 500 14px $(meta.font.family)" value="normal 500 14px $(family)"/>
+<Variable name="metafont.normalitalic" description="Meta Font Normal Italic" type="font" default="italic 500 14px $(meta.font.family)" value="italic 500 14px $(family)"/>
+<Variable name="textfont.italic" description="Text Font Italic" type="font" default="italic 400 14px $(text.font.family)" value="italic 400 14px $(family)"/>
+<Variable name="textfont.normal" description="Text Font Normal" type="font" default="normal 500 14px $(text.font.family)" value="normal 500 14px $(family)"/>
+<Variable name="textfont.normalitalic" description="Text Font Normal Italic" type="font" default="italic 500 14px $(text.font.family)" value="italic 500 14px $(family)"/>
+<Variable name="textfont.semibold" description="Text Font SemiBold" type="font" default="normal 600 14px $(text.font.family)" value="normal 600 14px $(family)"/>
+<Variable name="textfont.semibolditalic" description="Text Font SemiBold Italic" type="font" default="italic 600 14px $(text.font.family)" value="italic 600 14px $(family)"/>
+<Variable name="textfont.bold" description="Text Font Bold" type="font" default="normal 700 14px $(text.font.family)" value="normal 700 14px $(family)"/>
+<Variable name="textfont.bolditalic" description="Text Font Bold Italic" type="font" default="italic 700 14px $(text.font.family)" value="italic 700 14px $(family)"/>
+</Group>
+<Variable name="body.text.font" description="Font" hideEditor="true" type="font" default="13px arial, sans-serif" value="13px arial, sans-serif"/>
+<Variable name="posts.background.color" description="Post background color" hideEditor="true" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="tabs.font" description="Font 2" hideEditor="true" type="font" default="13px arial, sans-serif" value="13px arial, sans-serif"/>
+<Variable name="posts.title.color" description="Post title color" hideEditor="true" type="color" default="#333333" value="#595959"/>
+<Variable name="posts.text.color" description="Post text color" hideEditor="true" type="color" default="#656565" value="#757575"/>
+<Variable name="posts.icons.color" description="Post icons color" hideEditor="true" type="color" default="$(main.color)" value="#112b3e"/>
+<Variable name="labels.background.color" description="Label background color" hideEditor="true" type="color" default="$(main.color)" value="#ec5f1a"/>
+*/
+
+/*-- Google Rubik Font Family --*/
+@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U6f4L1kA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+... [Additional CSS and theme logic removed for brevity but contained in the document]
+  
